@@ -1,0 +1,183 @@
+      <div class="navbar-expand-md">
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <div class="navbar navbar-light">
+            <div class="container-xl">
+              <ul class="navbar-nav">
+                <li class="nav-item" >
+                  <a class="nav-link" href="./" >
+                    <span class="nav-link-icon d-md-none d-lg-inline-block" >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+                    </span>
+                    <span class="nav-link-title">
+                      Anasayfa
+                    </span>
+                  </a>
+                </li>
+				
+				<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false" >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-currency-lira" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+					   <path d="M10 5v15a7 7 0 0 0 7 -7"></path>
+					   <path d="M6 15l8 -4"></path>
+					   <path d="M14 7l-8 4"></path>
+					</svg>
+                    <span class="nav-link-title">
+                      Maaş
+                    </span>
+                  </a>
+                  <div class="dropdown-menu">
+                    <div class="dropdown-menu-columns">
+                      <div class="dropdown-menu-column">
+                        <a class="dropdown-item" href="./maas">
+							Memur Maaşları
+                          <span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>
+                        </a>
+						<a class="dropdown-item" href="./sozlesmelimaas">
+							Sözleşmeli Memur Maaşları
+                          <span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>
+                        </a>
+                        <a class="dropdown-item" href="./emeklimaas">
+							Emekli Maaşları
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>						
+						<a class="dropdown-item" href="./surekligorev">
+							Sürekli Görev Yolluğu
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a> 						
+                    </div>
+                  </div>
+                </li>
+				
+				<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false" >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list-numbers" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+					   <path d="M11 6h9"></path>
+					   <path d="M11 12h9"></path>
+					   <path d="M12 18h8"></path>
+					   <path d="M4 16a2 2 0 1 1 4 0c0 .591 -.5 1 -1 1.5l-3 2.5h4"></path>
+					   <path d="M6 10v-6l-2 2"></path>
+					</svg>
+                    <span class="nav-link-title">
+                      Tarifeler
+                    </span>
+                  </a>
+                  <div class="dropdown-menu">
+                    <div class="dropdown-menu-columns">
+                      <div class="dropdown-menu-column">
+                        <a class="dropdown-item" href="./avukatlikucret">
+							Avukatlık Asgari Ücret Tarifesi (Maktu)
+                          <span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>
+                        </a>                        
+						<a class="dropdown-item" href="./bilirkisiucret">
+							Bilirkişi Ücret Tarifesi
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>
+						<a class="dropdown-item" href="./uzlastirmaciucret">
+							Uzlaştırmacı Ücret Tarifesi
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>
+						<a class="dropdown-item" href="./taniklikucret">
+							Tanıklık Ücret Tarifesi
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>					
+                    </div>
+                  </div>
+                </li>
+				
+				<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false" >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calculator" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+					   <rect x="4" y="3" width="16" height="18" rx="2"></rect>
+					   <rect x="8" y="7" width="8" height="3" rx="1"></rect>
+					   <line x1="8" y1="14" x2="8" y2="14.01"></line>
+					   <line x1="12" y1="14" x2="12" y2="14.01"></line>
+					   <line x1="16" y1="14" x2="16" y2="14.01"></line>
+					   <line x1="8" y1="17" x2="8" y2="17.01"></line>
+					   <line x1="12" y1="17" x2="12" y2="17.01"></line>
+					   <line x1="16" y1="17" x2="16" y2="17.01"></line>
+					</svg>
+                    <span class="nav-link-title">
+                      Hesaplamalar
+                    </span>
+                  </a>
+                  <div class="dropdown-menu">
+                    <div class="dropdown-menu-columns">
+                      <div class="dropdown-menu-column">
+						<a class="dropdown-item" href="./islahharci">
+							Islah Harcı Hesaplama 
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>
+						<a class="dropdown-item" href="./vekaletharci">
+							Vekalet Harcı Hesaplama (Nispi)
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>
+						<a class="dropdown-item" href="./nisbiharc">
+							İstinaf Harcı Hesaplama (Nispi)
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>
+						<a class="dropdown-item" href="./gunfarkhesapla">
+							Gün Farkı Hesaplama
+							<span class="badge badge-sm bg-green-lt text-uppercase ms-auto"></span>	
+                        </a>                                                								
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./adliprogramlar" >
+                    <span class="nav-link-icon d-md-none d-lg-inline-block">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-source-code" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						   <path d="M14.5 4h2.5a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3v-5"></path>
+						   <path d="M6 5l-2 2l2 2"></path>
+						   <path d="M10 9l2 -2l-2 -2"></path>
+						</svg>
+                    </span>
+                    <span class="nav-link-title">
+                      Programlar
+                    </span>
+                  </a>
+                </li>      
+				<li class="nav-item">
+                  <a class="nav-link" href="./klavye" >
+                    <span class="nav-link-icon d-md-none d-lg-inline-block">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-keyboard" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						   <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+						   <line x1="6" y1="10" x2="6" y2="10"></line>
+						   <line x1="10" y1="10" x2="10" y2="10"></line>
+						   <line x1="14" y1="10" x2="14" y2="10"></line>
+						   <line x1="18" y1="10" x2="18" y2="10"></line>
+						   <line x1="6" y1="14" x2="6" y2="14.01"></line>
+						   <line x1="18" y1="14" x2="18" y2="14.01"></line>
+						   <line x1="10" y1="14" x2="14" y2="14"></line>
+						</svg>
+                    </span>
+                    <span class="nav-link-title">
+                      Klavye
+                    </span>
+                  </a>
+                </li>	
+              </ul>
+			  <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last">
+               <img src="https://pgm.adalet.gov.tr/Assets/front/images/bayrak.png" style="max-width: 75%" alt="Atatürk Resmi">
+              </div>
+              <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last" hidden>
+                <form action="./" method="get" autocomplete="off" novalidate>
+                  <div class="input-icon">
+                    <span class="input-icon-addon">
+                      <!-- Download SVG icon from http://tabler-icons.io/i/search -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
+                    </span>
+                    <input type="text" value="" class="form-control" placeholder="Ara…" aria-label="Search in website">
+                  </div>
+                </form>
+              </div>
+			  
+			  
+            </div>
+          </div>
+        </div>
+      </div>

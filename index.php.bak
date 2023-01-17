@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<script async src="https://api.countapi.xyz/hit/gokhantasci/fcdb4058-9545-47cc-9e3c-4bffb314c194?callback=websiteVisits"> </script>
+
+
+<?php
+session_start();
+define('ab139329','OK');
+include_once(dirname(__FILE__).'/config.php');
+include_once(dirname(__FILE__).'/functions.php');
+
+
+
+
+	$my_direction = my_direction();
+	
+	include(dirname(__FILE__).'/sayfalar/header/header.php');
+	include(dirname(__FILE__).'/sayfalar/navbar/navbar.php');
+	if(file_exists(dirname(__FILE__).'/sayfalar/'.$my_direction.'/'.$my_direction.'.php')){
+		include(dirname(__FILE__).'/sayfalar/'.$my_direction.'/'.$my_direction.'.php');
+	}else{
+		include(dirname(__FILE__).'/sayfalar/index/index.php');
+	}
+	include(dirname(__FILE__).'/sayfalar/footer/footer.php');
+
+
+exit();
