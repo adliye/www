@@ -1,0 +1,38 @@
+[
+    {
+        "durum": "eski",
+        "enflasyon": 1,
+        "aylik_katsayi": "0,333603",
+        "taban_ayligi_katsayi": "5,221532",
+        "yan_odeme_katsayi": "0,105796",
+        "gelir_vergisi_istisna": "874,58",
+        "damga_vergisi_istisna": "49,11"
+    },
+    {
+        "durum": "suan",
+        "enflasyon": 1.3,
+        "aylik_katsayi": 0.433684,
+        "taban_ayligi_katsayi": 6.787992,
+        "yan_odeme_katsayi": 0.137535,
+        "gelir_vergisi_istisna": 1271.08,
+        "damga_vergisi_istisna": 75.96
+    },
+    {
+        "durum": "fark",
+        "enflasyon": 0,
+        "aylik_katsayi": "0,433684",
+        "taban_ayligi_katsayi": "6,787992",
+        "yan_odeme_katsayi": "0,137535",
+        "gelir_vergisi_istisna": "1136,95",
+        "damga_vergisi_istisna": "63,84"
+    },
+    {
+        "durum": "toplu_sozlesme",
+        "enflasyon": "8",
+        "aylik_katsayi": "0,468379",
+        "taban_ayligi_katsayi": "7,331031",
+        "yan_odeme_katsayi": "0,148538",
+        "gelir_vergisi_istisna": "1227,91",
+        "damga_vergisi_istisna": "68,95"
+    }
+]
